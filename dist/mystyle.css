@@ -1,0 +1,91 @@
+.bg-nav{
+    background-color: #1b262c;
+}
+.player-turn{
+    height: 100px;
+}
+
+.h{
+    height: 650px;
+}
+.box{
+border-radius: 5%;
+}
+.h-20r{
+    height: 20rem;
+}
+.h-30r{
+    height: 32rem;
+}
+@media (max-width :1286px) and (min-width:1225px){
+    .h{
+        height:595px;
+    }
+    .md-h{
+        height: 4.5rem;
+    }
+    .md-w{
+        width: 4.5rem;
+    }
+    .h-20r{
+        height: 18rem;
+    }
+    .h-30r{
+        height:27rem
+    }
+}
+@media(max-width:1224px){
+    .right-div{
+        display:none;
+    }
+
+}
+@media(max-width:1070px)and (min-width:934px){
+    .h{
+        height:560px;
+    }
+    .md-h{
+        height: 4rem;
+    }
+    .md-w{
+        width: 4rem;
+    }
+    .h-30r{
+        height:25rem
+    }
+    .main-div{
+        justify-content: center;
+    }
+}
+@media(max-width:935px){
+    .main-div{
+        justify-content: center;
+    }
+    .left-div{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .h{
+        height:260px;
+    }
+    .md-h{
+        height: 2rem;
+    }
+    .md-w{
+        width: 2rem;
+    }
+    .sm-m{
+        margin: 2px;
+        padding:5px;
+    }
+    .sm{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    .sm-p{
+        margin: 0px;
+        padding: 0px;
+        align-content: center;
+    }
+}

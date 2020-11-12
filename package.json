@@ -1,0 +1,23 @@
+{
+  "name": "connect-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaartik2611/Connect-04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaartik2611/Connect-04/issues"
+  },
+  "homepage": "https://github.com/kaartik2611/Connect-04#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
